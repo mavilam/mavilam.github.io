@@ -1,4 +1,5 @@
-title: Miguel Ávila Monroy
+title: mavilam site
+author: Miguel Ávila Monroy
 email: miguel . avila . monroy [at] gmail . com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my attemp of a personal site with ❤.
@@ -9,6 +10,6 @@ github_username:  mavilam
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-swiss
 plugins:
   - jekyll-feed
