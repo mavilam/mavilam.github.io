@@ -6,7 +6,7 @@ categories: bot
 ---
 Hey everyone! I'd like to introduce my telegram bot 🤖 with a few words.
 
-[What to read bot](http://telegram.me/what_to_read_bot) is a simple bot that recommends you whenever you want the most sold books of "Amazon" 🇺🇸 and "La casa del libro" (LCDL) 🇪🇸 at the momment when you request it.
+<span style=" font-weight: bold">[(@What_to_read_bot)](http://telegram.me/what_to_read_bot)</span> What to read is a simple bot that recommends you whenever you want the most sold books of "Amazon" 🇺🇸 and "La casa del libro" (LCDL) 🇪🇸 at the momment when you request it.
 
 For now there are  the two big types of categories for each library: fiction and non fiction.
 
