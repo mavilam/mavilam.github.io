@@ -8,14 +8,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: avilamonroy
 github_username:  mavilam
 
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-110469955-1
+    anonymizeIp: false
+
 # Build settings
 markdown: kramdown
 theme: jekyll-swiss
 plugins:
   - jekyll-feed
   - jekyll-analytics
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-110469955-1
-    anonymizeIp: false      
