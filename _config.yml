@@ -5,7 +5,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is my attemp of a personal site with ❤.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: avilamonroy
+social_link: twitter
+social_username: avilamonroy
 github_username:  mavilam
 
 jekyll_analytics:
