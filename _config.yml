@@ -9,10 +9,8 @@ social_link: twitter
 social_username: avilamonroy
 github_username:  mavilam
 
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-110469955-1
-    anonymizeIp: false
+# Google Analytics
+google_analytics: UA-110469955-1
 
 # Build settings
 markdown: kramdown
