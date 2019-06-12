@@ -1,0 +1,99 @@
+body {
+  background-color: #F7F7F7;
+  font-family: Bookman, helvetica, sans-serif;
+  color: #2e2e2e;
+}
+
+.contentDiv {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 3% 10% 0% 10%;
+}
+
+.header {
+  padding-left: 1em;
+  padding-top: 1em;
+  float: left;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+form {
+ color: #2e2e2e;
+ background-color: #F7F7F7;
+}
+
+h1 {
+  line-height: 1em;
+  font-size: 2.5em;
+}
+
+a:link {
+ text-decoration: none;
+ color: #00b760;
+}
+
+a:visited {
+ text-decoration: none;
+ color: #5cd199;
+}
+
+a:hover {
+ text-decoration: none;
+ color: #00964f;
+}
+
+a:active {
+ text-decoration: none;
+ font-weight: bold;
+}
+
+::selection {
+ background-color: #a2e4c5;
+}
+
+.nextPrevDiv {
+ border-top: 0.1em solid;
+ padding-top: 1em;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+	 color: #ffffff;
+   background-color: #404047;
+  }
+
+  form {
+   color: #ffffff;
+   background-color: #404047;
+  }
+
+  a:link {
+   text-decoration: none;
+   color: #8acb88;
+  }
+
+  a:visited {
+   text-decoration: none;
+   color: #bfe2be;
+  }
+
+  a:hover {
+   text-decoration: none;
+   color: #8bdeb6;
+  }
+
+  a:active {
+   text-decoration: none;
+   font-weight: bold;
+  }
+
+  ::selection {
+    background-color: #71a770;
+  }
+}

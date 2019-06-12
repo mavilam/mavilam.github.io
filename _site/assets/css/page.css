@@ -1,0 +1,26 @@
+h1 {
+  line-height: 1em;
+  font-size: 3.5em;
+  text-decoration: line-through;
+  text-decoration-color: #00b760;
+}
+
+body {
+    font-size: 1.1em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1 {
+    line-height: 1em;
+    font-size: 3.5em;
+    text-decoration: line-through;
+    text-decoration-color: #8acb88;
+  }
+}

@@ -1,0 +1,25 @@
+.contentDiv {
+  max-width: 85%;
+  padding-bottom: 3%;
+}
+
+h1 {
+  line-height: 1em;
+  font-size: 3.5em;
+  text-decoration: line-through;
+  text-decoration-color: #00b760;
+}
+
+.nextPrev {
+  font-style: italic;
+}
+
+.preview {
+  color: #a2e4c5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .preview {
+    color: ##8bdeb6;
+  }
+}
