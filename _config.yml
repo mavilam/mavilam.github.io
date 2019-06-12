@@ -3,6 +3,7 @@ author: Miguel Ávila Monroy
 email: miguel . avila . monroy [at] gmail . com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my attemp of a personal site with ❤.
+greeting: "Hey Welcome!, this is Miguel! 👋"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 social_link: twitter
@@ -14,7 +15,7 @@ google_analytics: UA-110469955-1
 
 # Build settings
 markdown: kramdown
-theme: jekyll-swiss
+theme: mavilam-minimal
 plugins:
   - jekyll-feed
   - jekyll-analytics
