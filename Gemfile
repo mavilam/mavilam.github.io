@@ -27,4 +27,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jekyll-analytics'
 
+gem 'github-pages'
+
 gem "mavilam-minimal", "~> 0.8.1"
