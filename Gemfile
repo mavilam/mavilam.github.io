@@ -25,10 +25,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "jekyll-swiss"
 gem 'jekyll-analytics'
-<<<<<<< Updated upstream
-=======
 
 gem "mavilam-minimal", "~> 0.8.1"
->>>>>>> Stashed changes
