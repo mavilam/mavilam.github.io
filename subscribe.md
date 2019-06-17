@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /newsletter/suscribe
+permalink: /newsletter/subscribe
 ---
 <h2>Subscribe to my newsletter, <b>(the content is written in spanish!!)</b></h2>
 <!-- Begin MailChimp Signup Form -->
