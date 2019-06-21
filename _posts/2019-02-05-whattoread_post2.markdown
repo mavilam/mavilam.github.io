@@ -14,17 +14,17 @@ There has been a few changes in the functionality that are also reflected in the
 
 The choices were so limited in the early version, this made me think about some kind of categories to choose in each source. All sources have several categories, after a short look I selected six categories identified as the mainly read. Obviously the interface had to change. In the current version, the selection of a type of book has two steps. First the category has to be chosen.
 
-<center><img src="/img/botpost2categories.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
+<center><img src="/assets/img/botpost2categories.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
 <p/>
 
 Then the three sources are displayed and the user can pick one of the or pick three in a row. If you want to go back and select another category just press the back button.
 
-<center><img src="/img/botpost2sources.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
+<center><img src="/assets/img/botpost2sources.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
 <p/>
 
 And the answer should look like this one:
 
-<center><img src="/img/botpost2result.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
+<center><img src="/assets/img/botpost2result.jpeg" title="What to read bot" alt="What to read bot interface" width="50%"></center>
 <p/>
 
 ## Technical process
