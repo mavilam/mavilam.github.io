@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My own Jekyll theme: mavilam-minimal"
-date:   2019-06-20 22:43:48 +0100
+date:   2019-06-24 22:43:48 +0100
 categories: web
 ---
 
@@ -20,4 +20,4 @@ Actually it was a challenge for me because I don't know Ruby and design is not o
 * **Deployment**: In first place I thought that GitHub pages was compatible with all kind of Jekyll themes *(spoiler: I was wrong)* but when I upload the site with the new theme it was displayed in plain text. GitHub does not give you the real log of the deployment, they sent an email with a description of the error. To check the failure and fix it I created a TravisCI pipeline. After several iterations I realized that GitHub pages only support [these themes](https://pages.github.com/themes/) so it is needed to put the layouts and assets of the theme in your site instead of just indicate the theme name in the _config.yml.
 
 
-To sum up, to build something from zero with almost no knowledge of the technology involved was so refreshing and interesting. I know that there are so many things to be improved (Pull Requests are welcome) but I'm pretty proud that the theme that I'm is developed entirely by.
+To sum up, to build something from zero with almost no knowledge of the technology involved, was so refreshing and interesting. I know that there are so many things to improve (Pull Requests are welcome) but I'm pretty proud that the theme that I'm using is developed by me.
