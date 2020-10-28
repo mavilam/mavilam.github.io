@@ -2,6 +2,7 @@
 layout: page
 permalink: /newsletter/subscribe
 ---
+<br>
 <h2>Subscribe to my newsletter, <b>(the content is written in spanish!!)</b></h2>
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
