@@ -1,0 +1,155 @@
+:root {
+  --txt-black:      #333333;
+  --txt-white:      #e8fcf5;
+  --bg-black:       #131414;
+
+  --txt-normal:     1rem;
+  --txt-big:        1.5rem;
+  --txt-verybig:    1.85rem;
+  --txt-extrabig:   2.5rem;
+}
+
+@font-face {
+  font-family: 'Vercetti';
+  src: url('../font/Vercetti-Regular.otf') format('opentype');
+}
+
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--txt-black);
+}
+
+html {
+  font-family: 'Vercetti', -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-black);
+}
+
+h1 {
+  font-size: var(--txt-normal);;
+  line-height: 1.35em;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  color: currentColor;
+  text-decoration: underline;
+  text-decoration-skip-ink: ink;
+}
+
+section {
+  min-height: 100vh;
+  padding: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--txt-white);
+}
+  section h1 {
+    width: 90%;
+    max-width: 1360px;
+    font-size: var(--txt-extrabig);
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+    section h1 p {
+      line-height: 1.5em;
+    }
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex.reverse {
+  flex-direction: row-reverse;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: var(--txt-big);
+  font-weight: 500;
+  padding: 1em 5%;
+  z-index: 1;
+  color: var(--txt-white);
+}
+  .nav a {
+    text-decoration: none;
+  }
+
+#aboutme {
+  flex-direction: column; 
+}
+
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 13px;
+  }
+  .title {
+    width: 90%;
+  }
+  .flex {
+    display: block;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #greeting {
+    justify-content: flex-start;
+  }
+  section h1 {
+    width: 90%;
+    font-size: var(--txt-verybig);
+  }
+  section h1 p {
+    line-height: 1.25em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+}

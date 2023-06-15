@@ -1,11 +1,9 @@
-## Welcome!
-
-#### Here are some places where you can find me:
-
- * [Linkedin](https://www.linkedin.com/in/mavilam/)
- * [Twitter](https://twitter.com/avilamonroy)
- * [Mail](mailto:miguel.avila.monroy[at]gmail[dot]com)
-
-### If you love to read and don't know what to read right now, maybe my telegram bot could help you!
-
-* [What to read bot](http://telegram.me/what_to_read_bot)
+# mavilam site
+Hey, welcome to my personal site.
+## Reason of the last redevelopment
+Lately, all websites are sites built with cutting-edge frameworks, and a lot of them are heavyweight. I wanted to build my site to be concise and to be light, so I visited multiple sites to be inspired (and to steal ideas and code, I'm not a frontend developer) and only to use HTML and CSS.
+## Credits
+### Font credits
+Vercetti Regular
+Published by Filippos Fragkogiannis
+www.filipposfragkogiannis.com
