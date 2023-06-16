@@ -1,6 +1,6 @@
 :root {
   --txt-black:      #333333;
-  --txt-white:      #e8fcf5;
+  --txt-white:      #d4fff0;
   --bg-black:       #131414;
 
   --txt-normal:     1rem;
@@ -35,7 +35,7 @@ html {
 }
 
 h1 {
-  font-size: var(--txt-normal);;
+  font-size: var(--txt-normal);
   line-height: 1.35em;
   font-weight: 500;
 }
@@ -48,6 +48,7 @@ a {
   color: currentColor;
   text-decoration: underline;
   text-decoration-skip-ink: ink;
+  text-decoration-style: wavy;
 }
 
 section {
