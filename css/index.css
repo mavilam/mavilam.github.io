@@ -53,6 +53,7 @@ a {
 
 section {
   min-height: 100vh;
+  min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
   padding: 5%;
   position: relative;
   display: flex;
